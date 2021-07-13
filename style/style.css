@@ -1,0 +1,277 @@
+/****************************************************** NAV BAR ****************************************/
+  .header img {
+    position: absolute;
+    height: 30px;
+    left: 2%;
+    top: 2%; 
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ 
+.header {
+  display: flex;
+}
+
+#login {
+  text-transform: uppercase;
+  color: #006199;
+  font-size: 15px;
+  position:absolute;
+  letter-spacing: 4px;
+  right: 5%;
+  top: 3%; 
+  list-style-type: none;
+  border-radius: 25px;
+  border: 2px solid #1e2864;
+  width: 8%;
+  height: 5%;
+ } 
+
+/****************************************************** END OF NAV BAR ****************************************/
+.bg1{
+  width: 99%;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.textbg1 {    
+  position: relative;
+  display: flex;
+  justify-content: left;
+  margin-top: 15%;
+  margin-left: 8%;
+ }
+
+.textcat1 {
+  display: flex;
+  flex-direction: column;
+ }
+
+.texte1 {
+  font-size: 70px;
+  color: #15255a;
+}
+
+#register{
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  border-radius: 25px;
+  border: 0px;
+  background-color: #0095ff;
+  top: 90%;
+  left: 4%;
+  width: 20%;
+  height: 25%;
+}
+
+#explorer{
+  text-transform: uppercase;
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  border-radius: 25px;
+  border: 2px solid #1e2864;
+  top: 35rem;
+  right: 8%;
+  width: 20%;
+  height: 25%;
+}
+
+
+/****************************************************** END OF NAV BAR ****************************************/
+/****************************************************** END OF NAV BAR ****************************************/
+/****************************************************** END OF NAV BAR ****************************************/
+
+
+.bluebox{
+  background-color: #1087d6;
+  width: 99%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -98%;
+}
+
+.textbg2{
+  justify-content: center;
+}
+
+.textbg2{
+  width: 15%;
+  height: 8%;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: center;
+  border: solid white;
+  bottom: -10%;
+  position: relative;
+}
+
+
+.bluebox_txt{
+  bottom: -65%;
+  position: absolute;
+}
+
+.title_blue{
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 20px;
+  font-family: system-ui;
+  justify-content: center;
+  
+}
+.text_blue{
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: system-ui;
+  width: 45%;
+  margin: auto;
+  
+}
+
+
+/****************************************************** END OF NAV BAR ****************************************/
+/****************************************************** END OF NAV BAR ****************************************/
+/****************************************************** END OF NAV BAR ****************************************/
+
+.bluebox_img{
+  width: 60%;
+  height: 40%;
+  margin-left: 19%;
+  display: flex;
+  flex-direction: row;
+  bottom: -100%;
+  position: absolute;
+}
+
+.img1{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img2{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img3{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img4{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.img_footer{
+  width:35%;
+}
+
+.img_text{
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+.whitebox{
+  background-color: white;
+  width: 99%;
+  height: 90%;
+  position: absolute;
+  bottom: -188%;
+}
+
+.left .title_left {
+  color: #0cc15d;
+  font-family: system-ui;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 100px 0px 0px 240px;
+}
+
+.title_left2{
+  font-size: 30px;
+  font-family: system-ui;
+  letter-spacing: 2px;
+  margin: 30px 0px 0px 240px;
+  width: 24%;
+}
+
+.text_left{
+  font-size: 20px;
+  font-family: system-ui;
+  margin: 30px 0px 0px 240px;
+  width: 24%;
+}
+
+
+ 
+.right{
+  width: 50%;
+  margin: -19em 0px -17em 59em;
+  position: absolute;
+  font-family: system-ui;
+  list-style-type: none;
+}
+
+.right ul{
+  list-style-type: none;
+}
+
+.right p{
+  width: 50%;
+}
+
+.right h1{
+      display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.img{
+
+}
+
+.bg2{
+  width: 99%;
+  position: absolute;
+  bottom: -200em;
+}
+
+.text_2{
+  margin: 0px 38em 0px 47em;
+  position: absolute;
+  bottom: -260%;
+}
