@@ -1,3 +1,7 @@
+.body {
+  margin : 0;
+  padding : 0;
+}
 /****************************************************** NAV BAR ****************************************/
   .header img {
     position: absolute;
@@ -229,18 +233,20 @@
 .text_left{
   font-size: 20px;
   font-family: system-ui;
-  margin: 30px 0px 0px 240px;
   width: 24%;
+  left: 12em;
+  position: relative;
 }
 
 
  
 .right{
-  width: 50%;
-  margin: -19em 0px -17em 59em;
   position: absolute;
+  display: flex;
   font-family: system-ui;
   list-style-type: none;
+  left: 55%;
+  top: 9%;
 }
 
 .right ul{
@@ -271,7 +277,514 @@
 }
 
 .text_2{
-  margin: 0px 38em 0px 47em;
+  left: 25em;
   position: absolute;
-  bottom: -260%;
+  bottom: -270%;
+  background: white;
+  width: 60%;
+  height: 40%;
+  box-shadow: 0px 3px 13px 6px rgb(88 88 88 / 50%);
+}
+
+
+
+.text_2 h1{
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+  color: #0cc15d;
+  letter-spacing: 2px;
+}
+
+.text_2 p{
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+  font-size: 19px;
+  
+}
+
+.text_2 .inscription{
+  border: 2px solid rgb(15, 211, 15);
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  letter-spacing: 4px;
+  list-style-type: none;
+  border-radius: 25px;
+  width: 20%;
+  left: 40%;
+  bottom: 24%;
+  height: 12%;
+  background: rgb(49, 206, 49);
+}
+
+.footer{
+  position: absolute;
+  background: rgb(10, 76, 114);
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  height: 7%;
+  bottom: -204em;
+}
+
+.footer_1{
+    display: flex;
+    left: 0%;
+    position: absolute;
+}
+
+.footer p{
+  color: white;
+    font-family: system-ui;
+}
+
+
+@media screen and (max-width:600px) {
+  .footer_1{
+  width: 30%;
+  }
+
+  #register {
+    width: 27%;
+    height: 12%;
+    font-size: 15px;
+    top: 27em;
+  }
+
+  #explorer {
+    width: 23%;
+    height: 10%;
+    font-size: 15px;
+    top: 48em;
+  }
+
+  .inscription{
+    width: 40%;
+    height: 10%;
+    font-size: 12px;
+  }
+
+  .bg1{
+    width: 106em;
+    right: -4%;
+  }
+
+  
+  .textcat1{
+    font-size: 10px;
+    font-family: system-ui;
+    color: #15255a;
+  }
+
+  #login {
+    width: 25%;
+    height: 4%;
+    font-size: 15px;
+    top: 1em;
+  }
+
+  .title_blue{
+    font-size: 25px;
+    letter-spacing: 6px;}
+
+  .title_left2{
+    font-size: 30px;
+    font-family: system-ui;
+    letter-spacing: 2px;
+    width: 53%;
+    display: flex;
+    right: 30%;
+    position: relative;
+  }
+  
+  .text_2{
+    bottom: -195em;
+    left: 9em;
+  }
+
+  .text_left{
+    font-size: 20px;
+    font-family: system-ui;
+    width: 42%;
+    position: relative;
+    display: flex;
+    left: 11%;
+  }
+
+  .textbg2{
+    width: 36%;
+    bottom: -5%;
+  }
+
+
+  .right{
+    display: flex;
+    font-family: system-ui;
+    list-style-type: none;
+    left: 55%;
+    top: 15%;
+    position: unset;
+  }
+
+
+  .left .title_left {
+    color: #0cc15d;
+    font-family: system-ui;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:480px ) {
+  .footer_1{
+    width: 30%;
+    }
+  
+    #register {
+      width: 57%;
+      height: 6%;
+      font-size: 15px;
+      top: 30em;
+    }
+  
+    #explorer {
+      width: 23%;
+      height: 10%;
+      font-size: 15px;
+      top: 48em;
+    }
+  
+    .inscription{
+      width: 40%;
+      height: 10%;
+      font-size: 12px;
+    }
+  
+    .bg1{
+      width: 106em;
+      right: -4%;
+    }
+  
+    
+    .textcat1{
+      font-size: 10px;
+      font-family: system-ui;
+      color: #15255a;
+    }
+  
+    #login {
+      width: 23%;
+      height: 4%;
+      font-size: 11px;
+      top: 2em;
+    }
+  
+    .title_blue{
+      font-size: 25px;
+      letter-spacing: 6px;}
+  
+    .title_left2{
+      font-size: 30px;
+      font-family: system-ui;
+      letter-spacing: 2px;
+      width: 53%;
+      display: flex;
+      right: 30%;
+      position: relative;
+    }
+    
+    .text_2{
+    bottom: -199em;
+    left: 1em;
+    width: 94%;
+    }
+
+    .bg2{
+      
+    height: 54%
+    }
+  
+    .text_left{
+      font-size: 20px;
+      font-family: system-ui;
+      width: 42%;
+      position: relative;
+      display: flex;
+      left: 11%;
+    }
+    
+    .text_blue{
+      text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui;
+    width: 60%;
+    margin: auto;
+    }
+
+
+    .textbg2{
+      width: 36%;
+      bottom: -5%;
+    }
+  
+  
+    .right{
+      display: flex;
+      font-family: system-ui;
+      list-style-type: none;
+      left: 55%;
+      top: 15%;
+      position: unset;
+    }
+  
+  
+    .left .title_left {
+      color: #0cc15d;
+      font-family: system-ui;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+}
+
+@media screen and (max-width:700px ) {
+  .footer_1{
+    width: 30%;
+    }
+  
+    #register {
+      width: 57%;
+      height: 6%;
+      font-size: 15px;
+      top: 30em;
+    }
+  
+    #explorer {
+      width: 23%;
+      height: 10%;
+      font-size: 15px;
+      top: 48em;
+    }
+  
+    .inscription{
+      width: 40%;
+      height: 10%;
+      font-size: 12px;
+    }
+  
+    .bg1{
+      width: 106em;
+      right: -4%;
+    }
+  
+    
+    .textcat1{
+      font-size: 10px;
+      font-family: system-ui;
+      color: #15255a;
+    }
+  
+    #login {
+      width: 23%;
+      height: 4%;
+      font-size: 11px;
+      top: 2em;
+    }
+  
+    .title_blue{
+      font-size: 25px;
+      letter-spacing: 6px;}
+  
+    .title_left2{
+      font-size: 30px;
+      font-family: system-ui;
+      letter-spacing: 2px;
+      width: 53%;
+      display: flex;
+      right: 30%;
+      position: relative;
+    }
+    
+    .text_2{
+    bottom: -199em;
+    left: 1em;
+    width: 94%;
+    }
+
+    .bg2{
+      
+    height: 54%
+    }
+  
+    .text_left{
+      font-size: 20px;
+      font-family: system-ui;
+      width: 42%;
+      position: relative;
+      display: flex;
+      left: 11%;
+    }
+    
+    .text_blue{
+      text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui;
+    width: 60%;
+    margin: auto;
+    }
+
+
+    .textbg2{
+      width: 36%;
+      bottom: -5%;
+    }
+  
+  
+    .right{
+      display: flex;
+      font-family: system-ui;
+      list-style-type: none;
+      left: 55%;
+      top: 15%;
+      position: unset;
+    }
+  
+  
+    .left .title_left {
+      color: #0cc15d;
+      font-family: system-ui;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+}
+
+@media screen and (max-width:1000px ) {
+  .footer_1{
+    width: 30%;
+    }
+  
+    #register {
+      width: 57%;
+      height: 6%;
+      font-size: 15px;
+      top: 30em;
+    }
+  
+    #explorer {
+      width: 23%;
+      height: 10%;
+      font-size: 15px;
+      top: 48em;
+    }
+  
+    .inscription{
+      width: 40%;
+      height: 10%;
+      font-size: 12px;
+    }
+  
+    .bg1{
+      width: 106em;
+      right: 0%;
+    }
+  
+    
+    .textcat1{
+      font-size: 10px;
+      font-family: system-ui;
+      color: #15255a;
+    }
+  
+    #login {
+      width: 23%;
+      height: 4%;
+      font-size: 11px;
+      top: 2em;
+    }
+  
+    .title_blue{
+      font-size: 25px;
+      letter-spacing: 6px;}
+  
+    .title_left2{
+      font-size: 30px;
+      font-family: system-ui;
+      letter-spacing: 2px;
+      width: 53%;
+      display: flex;
+      right: 13%;
+      position: relative;
+    }
+    
+    .text_2{
+    bottom: -199em;
+    left: 1em;
+    width: 94%;
+    }
+
+    .bg2{
+      
+    height: 54%
+    }
+  
+    .text_left{
+      font-size: 20px;
+      font-family: system-ui;
+      width: 42%;
+      position: relative;
+      display: flex;
+      left: 11%;
+    }
+    
+    .text_blue{
+      text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui;
+    width: 60%;
+    margin: auto;
+    }
+
+
+    .textbg2{
+      width: 36%;
+      bottom: -5%;
+    }
+  
+  
+    .right{
+      display: flex;
+      font-family: system-ui;
+      list-style-type: none;
+      left: 61%;
+      top: 2%;
+      
+    }
+  
+  
+    .left .title_left {
+      color: #0cc15d;
+      font-family: system-ui;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
 }
